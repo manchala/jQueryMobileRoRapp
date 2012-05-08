@@ -1,0 +1,10 @@
+<div data-role="header">
+<h1>New post</h1>
+<%= link_to 'Back', posts_path, "data-icon" => "arrow-l", "class" => "ui-btn-left" %>
+</div>
+
+<div data-role="content">
+<%= render 'form' %>
+</div>
+
+<%= link_to 'Back', posts_path %>
